@@ -7,33 +7,31 @@ h2{
     margin-top: 0.1px;
 }
 span{
-    color: red;
+    color:orangered;
 }
 nav{
-    /* display: inline-block; */
+    display: inline-block;
     text-align:right;
     text-decoration: none;
     margin-left: 40%;
     margin-top: 2px;
     
 }
- /* a:hover{
+a:hover{
     border-radius: 20px;
-    background-color:gray;
-    font-size: x-large;
-    color: black;
-}  */
+    color: tomato;
+} 
 a{
     padding-left: 25px;
     text-decoration: none;
-    color: white;
+    color:white;
 }
 .big{
     margin-left: 20px;
 }
 body{
     background-image: url(../web.png);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
 h2{
@@ -44,25 +42,24 @@ p{
      text-align: justify;
      font-size:x-large;
      font-family: Arial, Helvetica, sans-serif;   }
-button{
+#button{
     background-color:orangered;
     display: inline-block;
     color: white;
     border-radius: 10px;
     padding: 5px;
     text-align: center;
-     margin-top: 10px;
      margin: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-right: 2%;
+    width: 200px;
     border: none;
     font-size: larger;
+    text-align: center;
 }
-/* button:hover{
+#button:hover{
     background-color: sandybrown;
     color: black;
     font-size: xx-large;
-} */
+}
 
 
 
